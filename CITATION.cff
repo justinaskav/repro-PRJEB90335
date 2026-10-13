@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and the archived data below."
+title: "Code for: Lesion-confined Fusobacterium enrichment and no detectable field effect in the colorectal mucosa: a within-patient multi-site biopsy study"
+type: software
+license: MIT
+repository-code: "https://github.com/justinaskav/repro-PRJEB90335"
+keywords:
+  - microbiome
+  - colorectal cancer
+  - colorectal adenoma
+  - 16S rRNA gene sequencing
+  - Fusobacterium
+  - mucosa-associated microbiota
+  - field effect
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23318201
+    description: "Processed data and full differential-abundance results (Zenodo)"
+  - type: url
+    value: "https://www.ebi.ac.uk/ena/browser/view/PRJEB90335"
+    description: "Raw reads (ENA PRJEB90335)"
+authors:
+  - given-names: Justinas
+    family-names: Kavoliūnas
+    orcid: "https://orcid.org/0000-0001-9520-3502"
+    affiliation: "Institute of Biosciences, Life Sciences Center, Vilnius University"
+  - given-names: Matas
+    family-names: Jakubauskas
+    orcid: "https://orcid.org/0000-0003-0789-2067"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Jūratė
+    family-names: Valčiukienė
+    orcid: "https://orcid.org/0000-0002-3183-5532"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Aida
+    family-names: Laurinavičienė
+    orcid: "https://orcid.org/0000-0002-3360-2142"
+    affiliation: "National Center of Pathology, Vilnius University Hospital Santaros Klinikos"
+  - given-names: Marius
+    family-names: Kryžauskas
+    orcid: "https://orcid.org/0000-0002-6373-9721"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Rūta Barbora
+    family-names: Valkiūnienė
+    affiliation: "National Center of Pathology, Vilnius University Hospital Santaros Klinikos"
+  - given-names: Eugenijus
+    family-names: Jasiūnas
+    affiliation: "Medical Science Centre, Faculty of Medicine, Vilnius University"
+  - given-names: Renaldas
+    family-names: Augulis
+    orcid: "https://orcid.org/0000-0002-9500-9870"
+    affiliation: "National Center of Pathology, Vilnius University Hospital Santaros Klinikos"
+  - given-names: Aušra
+    family-names: Garnelytė
+    orcid: "https://orcid.org/0009-0004-0537-7402"
+    affiliation: "National Center of Pathology, Vilnius University Hospital Santaros Klinikos"
+  - given-names: Ieva
+    family-names: Stundienė
+    orcid: "https://orcid.org/0000-0002-2569-3638"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Ugnė
+    family-names: Šilinskaitė
+    orcid: "https://orcid.org/0000-0001-7211-7548"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Tomas
+    family-names: Poškus
+    orcid: "https://orcid.org/0000-0002-6931-6041"
+    affiliation: "Faculty of Medicine, Vilnius University"
+  - given-names: Eglė
+    family-names: Lastauskienė
+    orcid: "https://orcid.org/0000-0001-6390-9033"
+    affiliation: "Institute of Biosciences, Life Sciences Center, Vilnius University"
+    email: egle.lastauskiene@gf.vu.lt

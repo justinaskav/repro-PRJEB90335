@@ -1,0 +1,18 @@
+# pipeline state
+_work/
+_output/
+.nextflow/
+.nextflow.log*
+
+# downloaded reads (re-fetch with scripts/download_data.py)
+data/fastq/
+
+# rendered figures are release artefacts, not tracked
+figures/*.png
+
+.Rhistory
+.RData
+__pycache__/
+
+# host reference (re-fetch with scripts/download_data.py)
+data/reference/

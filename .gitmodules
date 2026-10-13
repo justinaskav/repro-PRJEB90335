@@ -1,0 +1,6 @@
+[submodule "workflows/microbiome-workflows"]
+	path = workflows/microbiome-workflows
+	url = https://github.com/justinaskav/microbiome-workflows.git
+[submodule "shared"]
+	path = shared
+	url = https://github.com/justinaskav/microbiome-shared.git

@@ -1,0 +1,37 @@
+# R environment for r_prepare.nf, the diversity steps and the figures. Versions are the ones
+# the published results were computed with. Locked with `conda list --explicit > envs/r.lock.txt`;
+# install from the lock for an exact copy: conda create -n prjeb90335-r --file envs/r.lock.txt
+name: prjeb90335-r
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - r-base=4.5.3
+  # data structures / import
+  - bioconductor-mia=1.18.0
+  - r-rbiom=2.2.1                 # mia 1.18 imports rbiom::unifrac, removed in rbiom 3
+  - bioconductor-treesummarizedexperiment=2.18.0
+  - bioconductor-summarizedexperiment=1.40.0
+  - bioconductor-singlecellexperiment=1.32.0
+  - bioconductor-biostrings=2.78.0
+  - bioconductor-biomformat=1.38.3       # mia::importQIIME2() needs it at runtime
+  - r-ape=5.8_1
+  - r-argparse=2.3.1
+  # analysis
+  - r-vegan=2.7_5
+  - r-lme4=2.0_6
+  - r-lmertest=3.2_1
+  - r-emmeans=2.0.4
+  - r-car=3.1_5
+  - r-rstatix=1.1.0
+  - bioconductor-maaslin3=1.2.0
+  # plotting
+  - r-tidyverse=2.0.0
+  - r-ggplot2=4.0.3
+  - r-dplyr=1.2.1
+  - r-patchwork=1.3.2
+  - r-cowplot=1.2.0
+  - r-ggrepel=0.9.8
+  - r-ggtext=0.2.0
+  - r-withr=3.0.3
